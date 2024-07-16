@@ -16,32 +16,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-// function summarizeUrl(url) {
-//     // Send message to background script to summarize the URL
-//     chrome.runtime.sendMessage({ action: 'summarize', url: url }, function (response) {
-//         document.getElementById('summary').innerText = response.summary;
-//     });
-// }
 
-// function summarizeUrl(url,summaryType, summaryLength ) {
-//     // Send message to background script to summarize the URL
-//     chrome.runtime.sendMessage({ action: 'summarize_url', url: url, summaryType: summaryType, summaryLength: summaryLength }, function (response) {
-//         if (response && response.summary) {
-//             document.getElementById('summary').innerText = response.summary;
-//             print(response.headline)
-//             document.getElementById('headline').innerHTML= response.headline;
-
-//         } else {
-//             console.error('Error: Invalid response received from background script');
-//             document.getElementById('summary').innerText = 'Error: Unable to retrieve summary';
-//         }
-//     });
-// }
-
-// function summarizeUrl(url, summaryType) {
   function summarizeUrl(url, summaryType, summaryLength) {
   chrome.runtime.sendMessage(
-    // { action: "summarize_url", url: url, summaryType: summaryType },
+    
     { action: "summarize_url", url: url, summaryType: summaryType ,summaryLength },
     function (response) {
       if (response && response.summary) {
