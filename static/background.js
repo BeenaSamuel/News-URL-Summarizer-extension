@@ -18,12 +18,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
             }
             return response.json();
         })
-        // .then(data => {
-        //     sendResponse({ summary: data.summary });
-        // })
-        // .then(data => {
-        //     sendResponse({ headline: data.headline });
-        // })
+       
         .then(data => {
             sendResponse({ summary: data.summary, headline: data.headline , wordCount : data.wordCount , articleWords : data.articleWords});
             
@@ -32,6 +27,6 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
             console.error('Error fetching data:', error);
             sendResponse({ error: error.message });
         });
-        return true; // Keep the messaging channel open for sendResponse
+        return true; 
     }
 });
