@@ -1,0 +1,211 @@
+/* CSS HEX */
+/* dark-moss-green: #606c38ff;
+pakistan-green: #283618ff;
+cornsilk: #fefae0ff;
+earth-yellow: #dda15eff;
+tigers-eye: #bc6c25ff; 
+
+--barn-red: #780000ff;
+--fire-brick: #c1121fff;
+--papaya-whip: #fdf0d5ff;
+--prussian-blue: #003049ff;
+--air-superiority-blue: #669bbcff;
+
+--prussian-blue: #003049ff;
+--fire-engine-red: #d62828ff;
+--orange-wheel: #f77f00ff;
+--xanthous: #fcbf49ff;
+--vanilla: #eae2b7ff;
+
+*/
+
+body {
+  /* background-color: #E7ECEF; */
+  background-color: #fefae0ff;
+}
+.container {
+  padding: 10px;
+  color: #003049ff;
+  width: 500px;
+  height: 600px;
+}
+.content {
+  padding: 20px;
+}
+
+pre {
+  margin-bottom: -20px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #003049ff;
+}
+
+h1{
+ font-size: 45px;
+  
+}
+
+span {
+  color: #c1121fff;
+}
+
+#summarizeButton {
+  margin-left: 30%;
+  /* padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px; */
+  padding: 10px;
+  box-shadow: 0 5px #8b8c89;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #780000ff;
+  color: #fdf0d5ff;
+}
+
+/* #summarizeButton:hover {
+    background-color: #04AA6D;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  } */
+#summarizeButton:hover {
+  background-color: #eae2b7ff;
+  color: #780000ff;
+}
+
+#summarizeButton:active {
+  background-color: #c1121fff;
+  box-shadow: 0 5px #8b8c89;
+  transform: translateY(4px);
+}
+
+p {
+  text-align: justify;
+  font-size: 15px;
+  /* color: #606c38ff; */
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #606c38ff;
+}
+.ubuntu-regular.details{
+  color:#780000ff;
+  margin-left: 20px
+}
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px
+}
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.jersey-20-charted-regular {
+  font-family: "Jersey 20 Charted", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.form-range {
+  padding: 20px;
+}
+
+/* Style the range input track */
+.form-range::-webkit-slider-runnable-track {
+  background-color: #8b8c89; /* Change to your desired color */
+}
+
+.form-range::-moz-range-track {
+  background-color: #8b8c89; /* Change to your desired color */
+}
+
+/* Style the range input thumb */
+.form-range::-webkit-slider-thumb {
+  background-color: #780000ff; /* Change to your desired color */
+}
+
+.form-range::-moz-range-thumb {
+  background-color: #780000ff; /* Change to your desired color */
+}
+/* Style the radio button itself */
+.form-check-input[type="radio"] {
+  /* Customize the appearance of the radio button */
+  /* For example, change the border color */
+  border-color: #780000ff; /* Change to your desired color */
+}
+
+/* Style the radio button when it's checked */
+.form-check-input[type="radio"]:checked {
+  background-color: #780000ff;
+}
+
+/* 
+body {
+ 
+  background-color: #c9e1ff;
+  width: 500px;
+  height: 600px;
+}
+.container {
+  padding: 10px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #274c77;
+}
+#summarizeButton {
+  margin-left: 30%;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-shadow: 0 5px #8b8c89;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #a3cef138;
+  color: #274c77;
+}
+
+
+#summarizeButton:hover {
+  background-color: #e7ecef;
+}
+
+#summarizeButton:active {
+  background-color: #6096ba;
+  box-shadow: 0 5px #8b8c89;
+  transform: translateY(4px);
+}
+
+p {
+  text-align: justify;
+  font-size: 15px;
+  color: #274c77;
+}
+
+.jersey-15-regular {
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.form-range {
+
+  padding: 20px;
+} */
